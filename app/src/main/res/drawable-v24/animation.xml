@@ -1,0 +1,16 @@
+<!--
+  ~ Copyright (c) Oman Software Company 2019.
+  ~ Android Platform Developers section.
+  -->
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/gradyation0"
+        android:duration="4000" />
+
+    <item android:drawable="@drawable/gradyation1"
+        android:duration="4000" />
+
+    <item android:drawable="@drawable/gradyation2"
+        android:duration="4000" />
+</animation-list>

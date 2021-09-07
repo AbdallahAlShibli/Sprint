@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1018018843987",
+    "firebase_url": "https://sprintprinting.firebaseio.com",
+    "project_id": "sprintprinting",
+    "storage_bucket": "sprintprinting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018018843987:android:bbf245437dd2a23d8025a6",
+        "android_client_info": {
+          "package_name": "cc.omansoftware.sprint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018018843987-bnkgd2n194pu56fktuq5emll6jvsgg3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cc.omansoftware.sprint",
+            "certificate_hash": "ee8e54126333731fd3b809e57a0c8c04c9f9ca6b"
+          }
+        },
+        {
+          "client_id": "1018018843987-h60g28v1ma9itnfmln1dmlglguf99ua3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5z5-VX8bmmnxHzLm_M8FJ-dq0alSo6zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018018843987-h60g28v1ma9itnfmln1dmlglguf99ua3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

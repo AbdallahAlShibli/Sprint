@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UploadImageActivity"
+    tools:showIn="@layout/activity_upload_image">
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_upload" />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/ic_add_to_photos"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/path"
+        android:orientation="vertical">
+<!--        <Button-->
+<!--            android:id="@+id/text_view_show_uploads"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignTop="@+id/button_upload"-->
+<!--            android:layout_alignBottom="@+id/button_upload"-->
+<!--            android:layout_marginStart="25dp"-->
+<!--            android:layout_marginLeft="25dp"-->
+<!--            android:layout_toEndOf="@+id/button_upload"-->
+<!--            android:layout_toRightOf="@+id/button_upload"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Show Uploads"-->
+<!--            android:textSize="16sp" />-->
+        <EditText
+            android:id="@+id/edit_text_file_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/sylfaen"
+            android:hint="Your Notes: " />
+
+
+
+
+
+
+        <Button
+            android:id="@+id/button_upload"
+            android:layout_width="119dp"
+            android:layout_height="49dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bt_back"
+            android:backgroundTint="#fda49b"
+            android:gravity="right|fill"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:fontFamily="@font/sylfaen"
+            android:textAlignment="center"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

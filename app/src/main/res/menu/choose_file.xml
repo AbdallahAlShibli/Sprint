@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cc.omansoftware.sprint.UploadImageActivity">
+    <item
+        android:id="@+id/id_choose_an_image"
+        android:orderInCategory="100"
+        android:title="@string/choose_an_image"
+        android:icon="@drawable/ic_choose_image"
+        app:showAsAction="always" />
+</menu>
